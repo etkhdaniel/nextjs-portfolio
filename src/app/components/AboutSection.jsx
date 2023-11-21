@@ -9,12 +9,14 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>Java</li>
+        <li>C</li>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>React Native</li>
       </ul>
     ),
   },
@@ -23,8 +25,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>B.S. in Computer Science, Certificate in New Media</li>
+        <li>University of Georgia</li>
       </ul>
     ),
   },
@@ -33,8 +35,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Using the Community Cyber Security Maturity Model (CCSMM) to Develop a Cyber Security Program</li>
+        <li>edX Verified Certificate for Cybersecurity for Critical Urban Infrastructure</li>
       </ul>
     ),
   },
@@ -57,12 +59,13 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          👋 Hello! My name is Eva Daniel and I'm studying Computer Science and New Media at the University of Georgia.
+          <br/><br/>
+          🔒 With a keen interest in cybersecurity, I'm dedicated to safeguarding the digital world. I believe that a strong defense is crucial in our interconnected society, and I'm excited to contribute to the cybersecurity community's ongoing mission to protect data and privacy.
+          <br/><br/>
+          💻 I'm also captivated by the art of Front-End Development. The power to craft beautiful, user-friendly interfaces that enrich the digital experience is a craft I'm eager to master. I'm committed to creating designs that not only look good but also provide seamless and enjoyable user experiences.
+          <br/><br/>
+          🌟 Currently exploring the intersections of technology, security, and design. Let's connect and share our experiences in the ever-evolving world of Computer Science!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
